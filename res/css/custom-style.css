@@ -1,0 +1,374 @@
+/* NAVBAR */
+.nav-item{
+    font-family: "Quicksand", san-serif !important;
+    font-weight: bold !important;
+    letter-spacing: 1px;  
+    font-size: 20px;
+}
+
+
+#lp-navbar-header1 { 
+    
+    background-image: linear-gradient(15deg, #FFF 0%, #00D2CE 100%) !important;
+    border-bottom: solid 2px rgb(0,0,0,0.5) !important;
+}
+
+
+#lp-navbar-header1 a{
+    color: #000;
+}
+
+
+#lp-navbar-header1 a:hover {
+    color: #28A745;
+    
+}
+
+#lp-navbar-header2 {
+/*    padding: 20px 0;*/
+
+}
+
+#lp-navbar-header2 .navbar-brand img{
+    height: 150px !important;
+    width: 250px;
+}
+
+
+.navbar-brand img{
+    height: 70px;
+    width: 200px;
+}
+
+
+/* navbar animations*/
+
+
+/* END OF NAVBAR HEADER */
+
+/*  FOOTER STYLES */
+
+.footer{
+    padding: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.contact-section small{
+    font-weight: bold;
+}
+
+.contact-section a{
+    color: #000;
+}
+
+.contact-section a:hover{
+    color: #28A745;
+}
+.footer-copyright{
+    font-family: "Quicksand", sans-serif;
+}
+/* END OF FOOTER STYLES */
+
+.card{
+  margin-top: 20px;
+
+}
+
+.scroll-me{
+    position: relative;
+    top: 90vh;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    background-color: transparent;
+    border: transparent solid 1px;
+    border-radius: 50%;
+    color: #28A745;
+    left: 48vw;
+}
+
+.scroll-me:hover{
+    color: #FFF;
+    font-weight: lighter;
+    cursor: default;
+}
+
+/* BANNER */
+
+.background-parallax{
+    /* The image used */
+  background-image: url("../images/background.jpg");
+
+  /* Set a specific height */
+  height: 100vh;
+  width: auto; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-parallax{
+    font-family: "Quattrocento", sans-serif;
+    color: #FFF;
+    
+}
+
+
+
+.background-parallax h2{ 
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Sections and Paragraphs */
+
+.lp-section{
+    padding: 80px 40px ;
+    background-color: #FFF;
+    border-top: solid 2px #000;
+    border-bottom: solid 2px #000;; 
+    
+}
+
+.lp-paragraph{
+    letter-spacing: 0;
+    font-size: 20px;
+ 
+
+}
+
+.lp-section img{
+    float: right;
+    height: 500px !important;
+    width: 500px !important;
+     shape-outside: circle();
+     margin: 20px;
+     filter: brightness(0.9);
+     font-family: "Quicksand", sans-serif;
+}
+
+
+.lp-paragraph strong{
+    font-family:"Quattrocento", sans-serif;
+}
+
+.lp-mission-section{
+    color: #FFF;
+    
+    padding: 70px 50px;
+    background-image: url("../images/office.jpg");
+
+  /* Set a specific height */
+  height: auto;
+  width: auto; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: "Quicksand", sans-serif;
+
+}
+
+
+
+.lp-mission-section img{ 
+    height: 200px;
+    width: 200px;
+    margin: 40px 65px !important;
+}
+
+.lp-mission-section h3,h4{
+    font-weight: light !important;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: "Quattrocento", sans-serif;
+}
+
+.lp-end-section{
+    color: #fff;
+    padding: 70px 50px;
+    background-image: url("../images/call-center.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+  width: auto; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: "Dosis", sans-serif;
+
+}
+
+/* section typography */
+.lp-section-title{
+    font-family:"Quattrocento", sans-serif;
+    
+}
+
+.lp-subsection{ 
+    margin: 40px 0;
+}
+
+.lp-subtitle{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+.page-banner{
+    height: 50vh;
+    border: solid 1px #000;
+    background: url('../images/background.jpg') 100%;
+    background-position: contain;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-banner h3{
+    font-family: "Quattrocento", sans-serif;
+    color: green;
+    top: 50%;
+    bottom: 50%;
+    position: relative;
+    text-align: center;
+}
+
+
+
+
+.back-to-top{
+    
+    position: relative;
+    background-color: white;
+    border: rgb(0,0,0,0.1);
+    z-index: 99999999;
+    bottom: 60px;
+    left: 80vw;
+    width: 80px;
+    height: 80px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding-top: 20px;
+    
+}
+
+
+
+.btn:focus {
+    outline: none !important;
+    box-shadow:none !important;
+}
+
+.company-highlight{
+    font-family: "Quicksand", sans-serif;
+}
+
+/* CAREERS */
+
+.career-banner-parallax{
+    height: 50vh;
+}
+
+.career-background-parallax{
+    height: 50vh;
+    font-family: "Quattrocento", sans-serif;
+}
+
+.career-banner-text {
+   padding-top: 30vh !important;
+}
+
+/*responsive*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .banner-text{ font-size: 25px; }
+  .lp-section img {height: 200px !important; width: 200px !important; margin: 30px 0; display: none;}
+
+  .lp-paragraph{font-size: 18px !important; }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+  .lp-sectiom img{
+     height: 300px !important;
+    width: 300px !important;
+   }
+} 
+
+
+
+/*
+@description STYLES FOR SERVICES PAGE 
+ */
+
+ .background-parallax-services{
+    /* The image used */
+  background-image: url("../images/services.jpg");
+
+  /* Set a specific height */
+  height: 50vh;
+  width: auto; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-parallax-services{
+    font-family: "Quattrocento", sans-serif;
+    color: #FFF;
+    
+}
+
+.background-parallax-services h2{ 
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*MISCELLANEOUS*/
+
+.bg-smoke{
+    background-color: ;
+}
+
